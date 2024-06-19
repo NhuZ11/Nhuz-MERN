@@ -1,0 +1,11 @@
+// initial one time
+git init 
+git remote add origin git repo 
+        eg: git remote add origin https://github.com/NhuZ11/Nhuz-MERN.git
+        2.1 to check number  (optional): git remote -v
+
+//daily use 
+
+git status (optional)
+
+git add .

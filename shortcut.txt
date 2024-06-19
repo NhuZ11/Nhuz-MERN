@@ -1,0 +1,23 @@
+alt+shift+downarrow = to copy code downward
+
+ctrl+enter = for direct next line
+
+alt hold and click = for multi cursor
+
+wrapping image within figure tag <figure> makes it seo friendly and it also allows figure caption
+
+
+//userVerified is camel case
+//user_verified is snake case
+
+//priotize use of let rather than var
+
+//let vs const vs var "
+
+
+//hold alt to move statement up and down
+
+//win + v for the clipboard
+
+
+//alt+shift+a is block comment
