@@ -12,5 +12,6 @@ function doSomething(){
 
 doSomething();
 console.log("number outside is",number);
+console.log("hello world");
 
 console.log("age outside is",age) //it will also print age=255 because let is not used inside block so the value is replaced.

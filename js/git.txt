@@ -8,4 +8,14 @@ git remote add origin git repo
 
 git status (optional)
 
-git add .
+git add .    or git add fileName(Eg: git add index.html)
+git commit -m "html-css-jss"
+git push     (git push --set-upstream origin your-branch-name //at start)
+
+
+git clone url   // for clone others code
+
+
+//for git pull 
+
+git pull (must be inside the clone file)
