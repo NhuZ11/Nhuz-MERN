@@ -2,29 +2,36 @@ let user={
     name: "Ram",
     paidStatus: false,
     hasScholarship: false,
-    gender: "male"
+    gender: "male",
+    hasMetAttendence: true, 
+    email: "email@gmail.com",
+    password: "Password"
 }
 
-// if(user.paidStatus || user.hasScholarship){
-//     if(user.gender=="female"){
-//         console.log(`Mrs.${user.name} can give exam `);
-//     }else{
-//         console.log(`Mr.${user.name} can give exam `);
-//     }
-// }else{
-//     if(user.gender=="female"){
-//         console.log(`Mrs.${user.name} can't give exam `);
-//     }else{
-//         console.log(`Mr.${user.name} can't give exam `);
-//     }
-// }
 
 let genderPost = (user.gender=="male")?"Mr":"Mrs";
 
-if(user.paidStatus || user.hasScholarship){  
+if((user.paidStatus || user.hasScholarship) && user.hasMetAttendence){  
         console.log(`${genderPost}.${user.name} can give exam.`);
 }else{
      console.log(`${genderPost}.${user.name} can't give exam.`);
 }
+
+
+
+
+
+
+function login(email, password){
+    if(email==user.email && password==user.password){
+        console.log("Logged in successfully");
+    }
+    else{
+        console.log("Incorrect email or password");
+    }
+}
+
+login("email@gmial.com","password")
+
 
 

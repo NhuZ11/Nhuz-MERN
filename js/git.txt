@@ -17,5 +17,4 @@ git clone url   // for clone others code
 
 
 //for git pull 
-
 git pull (must be inside the clone file)
