@@ -15,6 +15,6 @@ git push     (git push --set-upstream origin your-branch-name //at start)
 
 git clone url   // for clone others code
 
-
+ 
 //for git pull 
 git pull (must be inside the clone file)
