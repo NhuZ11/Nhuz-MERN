@@ -19,3 +19,14 @@
 .product-price{
     text-align: center;
 }
+
+.todotask table{
+   border-collapse:collapse ;
+    
+    
+}
+
+.todotask td,th{
+    padding: 2px, 8px;
+    border: 1px solid black;
+}

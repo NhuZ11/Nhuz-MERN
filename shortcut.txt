@@ -21,3 +21,7 @@ wrapping image within figure tag <figure> makes it seo friendly and it also allo
 
 
 //alt+shift+a is block comment
+
+
+
+//rfc
