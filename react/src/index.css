@@ -30,3 +30,9 @@
     padding: 2px, 8px;
     border: 1px solid black;
 }
+
+
+.themeChanger{
+    background-color: black;
+    color: whitesmoke;
+}

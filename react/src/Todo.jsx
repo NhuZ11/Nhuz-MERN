@@ -54,7 +54,7 @@ export default function Todo() {
           {todos.map((el) => {
             return (
               <tr>
-                <td>{el.title} {el.user? `(${el.user})`:"()"}</td>
+                <td>{el.title} {el.user? `(${el.user})`:"(-)"}</td>  {/*conditional rendering*/ }
                 <td>{el.status ? "✔" : "❌"}</td>
               </tr>
             );
