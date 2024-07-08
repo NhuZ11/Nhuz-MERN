@@ -31,6 +31,15 @@
     border: 1px solid black;
 }
 
+.appTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.counterChange{
+    margin-left: 10px;
+}
+
 
 .themeChanger{
     background-color: black;

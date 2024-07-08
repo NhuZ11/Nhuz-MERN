@@ -8,11 +8,11 @@ import Theme from "./Theme";
 export default function App() {
   return (
     <div>
-      <Counter/>
-      <hr />
-      <br />
-      <Theme />
-      {/* <div>
+      <div className="appTop">
+        <Counter />
+        <Theme />
+      </div>
+      <div>
         <ProductList />
         <hr />
       </div>
@@ -20,7 +20,7 @@ export default function App() {
       <div>
         <h1>Todo List</h1>
         <Todo />
-      </div> */}
+      </div>
     </div>
   );
 }

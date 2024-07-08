@@ -4,7 +4,12 @@ import React,{useState} from 'react'
 
 
 /* hook: function having use
-    function useState(){
+    
+    function useState(initalValue){
+        // code ...
+
+
+        return [initialValue,mutatorFunction]
     }
 */
 
@@ -24,7 +29,7 @@ export default function Counter() {
     }
     console.log("render");
   return (
-    <div>
+    <div className='counterChange'>
         <h1>Count:{value}</h1>
         <button onClick={increment}>increment</button>
         <button onClick={decrement}>decrement</button>
