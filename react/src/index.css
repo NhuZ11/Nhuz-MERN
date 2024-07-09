@@ -46,12 +46,31 @@
     color: whitesmoke;
 }
 
-.googleTab ul{
+.googleTab {
+    padding: 10px;
+  }
+  
+  .googleTab ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+  }
+  
+  .googleTab ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
     
-}
-
-.googleTab ul li{
-    margin-left: 40px;
-}
+  }
+  
+  .googleTab ul li:hover {
+    background-color: grey;
+    color: whitesmoke;
+  }
+  
+  .googleTab ul li.active {
+    background-color: grey;
+    color: whitesmoke;
+  }
