@@ -41,7 +41,17 @@
 }
 
 
-.themeChanger{
+.black{
     background-color: black;
     color: whitesmoke;
+}
+
+.googleTab ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.googleTab ul li{
+    margin-left: 40px;
 }

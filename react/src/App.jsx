@@ -4,15 +4,17 @@ import Todo from "./Todo";
 import Counter from "./components/Counter";
 import ProductList from "./ProductList";
 import Theme from "./Theme";
+import GoogleTabs from "./components/GoogleTabs";
 
 export default function App() {
   return (
     <div>
       <div className="appTop">
-        <Counter />
-        <Theme />
+        <GoogleTabs />
+        {/* <Counter />
+        <Theme /> */}
       </div>
-      <div>
+      {/* <div>
         <ProductList />
         <hr />
       </div>
@@ -20,7 +22,7 @@ export default function App() {
       <div>
         <h1>Todo List</h1>
         <Todo />
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -13,15 +13,17 @@ export default function () {
 
   return (
     <div
-      className="themeChanger"
-      style={{
-        backgroundColor: color,
-        color: color === "black" ? "white" : "black",
-      }}
+      className={color=="black"?"black":""}
+      // style={{
+      //   backgroundColor: color,
+      //   color: color === "black" ? "white" : "black",
+        
+      // }}
     >
-      <p>current theme: {color}</p>
-      <button onClick={whiteMode}>Light theme</button>
-      <button onClick={blackMode}>Dark theme</button>
+      <p>Current theme: {color}</p>
+      {color=="black"?<button onClick={whiteMode}>Light theme</button>:<button onClick={blackMode}>Dark theme</button>}
+      {/* <button onClick={whiteMode}>Light theme</button>
+      <button onClick={blackMode}>Dark theme</button> */}
       <p>hello world</p>
       <p>hello nepal</p>
     </div>
