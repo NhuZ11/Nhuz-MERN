@@ -11,8 +11,8 @@ export default function App() {
     <div>
       <div className="appTop">
         <GoogleTabs />
-        {/* <Counter />
-        <Theme /> */}
+        <Counter />
+        {/* <Theme /> */}
       </div>
       {/* <div>
         <ProductList />
