@@ -44,6 +44,8 @@
 .black{
     background-color: black;
     color: whitesmoke;
+    height: 100vh;
+   
 }
 
 .googleTab {

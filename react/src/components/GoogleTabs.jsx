@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Theme from "../Theme";
 export default function () {
   const [currentTab, setTab] = useState("all");
 
@@ -17,6 +17,7 @@ export default function () {
         <div>
           <h2>All Section</h2>
           <p>this is all</p>
+         
         </div>
       }
 

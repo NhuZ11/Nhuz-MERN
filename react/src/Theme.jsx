@@ -1,22 +1,26 @@
 import React, { useState } from "react";
 
-export default function () {
-  const [color, setColor] = useState("black");
+export default function (props) {
+  // const [color, setColor] = useState("white");
+  
+ 
 
   const blackMode = () => {
     setColor("black");
+   
   };
 
   const whiteMode = () => {
     setColor("white");
+   
   };
 
   return (
     <div
-      className={color=="black"?"black":""}
+      className={color=="black"?"black":"" }
       // style={{
-      //   backgroundColor: color,
-      //   color: color === "black" ? "white" : "black",
+      //   backgroundColor: bgColor,
+      //   color: color === "black" ? "black" : "white",
         
       // }}
     >

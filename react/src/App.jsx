@@ -5,13 +5,19 @@ import Counter from "./components/Counter";
 import ProductList from "./ProductList";
 import Theme from "./Theme";
 import GoogleTabs from "./components/GoogleTabs";
+import { useState } from "react";
+
 
 export default function App() {
+  const [currentTheme,setCurrentTheme] =useState()
   return (
-    <div>
+    <div >
       <div className="appTop">
+     
         <GoogleTabs />
-        <Counter />
+        
+        <Counter  />
+        <Theme currentTheme={currentTheme} setCurrentTheme={setCurrentTheme} />
         {/* <Theme /> */}
       </div>
       {/* <div>
