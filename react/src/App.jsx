@@ -6,6 +6,7 @@ import ProductList from "./ProductList";
 import Theme from "./Theme";
 import GoogleTabs from "./components/GoogleTabs";
 import { useState } from "react";
+import ComponentA from "./Context/ComponentA";
 
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         
         <Counter  />
         <Theme currentTheme={currentTheme} setCurrentTheme={setCurrentTheme} />
+        <ComponentA />
         {/* <Theme /> */}
       </div>
       {/* <div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function (props) {
-  // const [color, setColor] = useState("white");
+  const [color, setColor] = useState("white");
   
  
 
